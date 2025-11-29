@@ -1,0 +1,591 @@
+/* MediTalk Professional Design System */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Modern Color Palette */
+  --color-primary: #2563eb;
+  --color-primary-light: #3b82f6;
+  --color-primary-dark: #1d4ed8;
+  --color-secondary: #10b981;
+  --color-secondary-light: #34d399;
+  --color-accent: #8b5cf6;
+  --color-accent-light: #a78bfa;
+  
+  /* Background & Surface Colors */
+  --color-bg: #fafbfc;
+  --color-surface: #ffffff;
+  --color-surface-elevated: #f8fafc;
+  --color-surface-hover: #f1f5f9;
+  --color-border: #e2e8f0;
+  --color-border-light: #f1f5f9;
+  
+  /* Text Colors */
+  --color-text-primary: #1e293b;
+  --color-text-secondary: #64748b;
+  --color-text-muted: #94a3b8;
+  --color-text-inverse: #ffffff;
+  
+  /* Status Colors */
+  --color-success: #10b981;
+  --color-success-light: #d1fae5;
+  --color-warning: #f59e0b;
+  --color-warning-light: #fef3c7;
+  --color-error: #ef4444;
+  --color-error-light: #fee2e2;
+  --color-info: #3b82f6;
+  --color-info-light: #dbeafe;
+  
+  /* Spacing & Layout */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Typography */
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  
+  /* Line Heights */
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+body,
+.main,
+.block-container {
+  background: var(--color-bg) !important;
+  font-family: var(--font-family-primary) !important;
+  color: var(--color-text-primary) !important;
+  line-height: var(--leading-normal);
+}
+
+/* Streamlit App Container */
+.stApp {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
+}
+
+/* Main Content Container */
+.main .block-container {
+  background: var(--color-surface) !important;
+  border-radius: var(--radius-xl) !important;
+  box-shadow: var(--shadow-xl) !important;
+  border: 1px solid var(--color-border) !important;
+  margin-top: var(--spacing-lg) !important;
+  margin-bottom: var(--spacing-lg) !important;
+  padding: var(--spacing-2xl) !important;
+  max-width: 1400px !important;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-primary) !important;
+  font-weight: 600 !important;
+  color: var(--color-text-primary) !important;
+  line-height: var(--leading-tight) !important;
+  margin-bottom: var(--spacing-md) !important;
+}
+
+h1 {
+  font-size: var(--font-size-4xl) !important;
+  font-weight: 700 !important;
+}
+
+h2 {
+  font-size: var(--font-size-3xl) !important;
+}
+
+h3 {
+  font-size: var(--font-size-2xl) !important;
+}
+
+h4 {
+  font-size: var(--font-size-xl) !important;
+}
+
+p {
+  color: var(--color-text-secondary) !important;
+  line-height: var(--leading-relaxed) !important;
+}
+
+/* Professional Hero Banner */
+.meditalk-hero {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  padding: var(--spacing-2xl) var(--spacing-xl);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  color: var(--color-text-inverse);
+  margin-bottom: var(--spacing-xl);
+  position: relative;
+  overflow: hidden;
+}
+
+.meditalk-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: 0.1;
+  z-index: 0;
+}
+
+.meditalk-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.meditalk-hero h1 {
+  margin: 0 !important;
+  font-size: var(--font-size-4xl) !important;
+  font-weight: 700 !important;
+  color: var(--color-text-inverse) !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.meditalk-subtitle {
+  opacity: 0.95;
+  margin-top: var(--spacing-sm) !important;
+  font-size: var(--font-size-lg) !important;
+  font-weight: 400 !important;
+  color: var(--color-text-inverse) !important;
+}
+
+/* Professional Cards */
+.meditalk-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl) var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  position: relative;
+}
+
+.meditalk-card:hover {
+  border-color: var(--color-primary-light);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.meditalk-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+/* Metric Grid System */
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+.metric-item {
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  text-align: center;
+  transition: all var(--transition-base);
+  position: relative;
+  overflow: hidden;
+}
+
+.metric-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--color-primary);
+  transform: scaleX(0);
+  transition: transform var(--transition-base);
+}
+
+.metric-item:hover {
+  background: var(--color-surface);
+  border-color: var(--color-primary-light);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.metric-item:hover::before {
+  transform: scaleX(1);
+}
+
+.metric-item h4 {
+  margin: 0 0 var(--spacing-sm) 0 !important;
+  font-size: var(--font-size-sm) !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  color: var(--color-text-muted) !important;
+}
+
+.metric-item .metric-value {
+  font-size: var(--font-size-3xl) !important;
+  font-weight: 700 !important;
+  color: var(--color-primary) !important;
+  margin: 0 !important;
+}
+
+/* Modern Chip Components */
+.symptom-chip,
+.alt-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  background: var(--color-info-light);
+  color: var(--color-info);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-full);
+  margin: var(--spacing-xs) var(--spacing-sm) var(--spacing-xs) 0;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  border: 1px solid var(--color-info);
+  transition: all var(--transition-fast);
+}
+
+.symptom-chip:hover {
+  background: var(--color-info);
+  color: var(--color-text-inverse);
+  transform: translateY(-1px);
+}
+
+.alt-chip {
+  background: var(--color-secondary-light);
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.alt-chip:hover {
+  background: var(--color-secondary);
+  color: var(--color-text-inverse);
+}
+
+/* Professional Precaution Items */
+.precaution-item {
+  background: var(--color-success-light);
+  color: var(--color-text-primary);
+  padding: var(--spacing-md) var(--spacing-lg);
+  margin: var(--spacing-sm) 0;
+  border-left: 4px solid var(--color-success);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  transition: all var(--transition-base);
+  position: relative;
+}
+
+.precaution-item:hover {
+  background: var(--color-success);
+  color: var(--color-text-inverse);
+  transform: translateX(4px);
+}
+
+.precaution-item::before {
+  content: '✓';
+  position: absolute;
+  left: var(--spacing-sm);
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
+  color: var(--color-success);
+}
+
+.precaution-item:hover::before {
+  color: var(--color-text-inverse);
+}
+
+/* Confidence Badges */
+.conf-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: var(--shadow-sm);
+}
+
+.conf-high {
+  background: var(--color-success);
+  color: var(--color-text-inverse);
+}
+
+.conf-medium {
+  background: var(--color-warning);
+  color: var(--color-text-primary);
+}
+
+.conf-low {
+  background: var(--color-error);
+  color: var(--color-text-inverse);
+}
+
+/* Professional Footer */
+.meditalk-footer {
+  text-align: center;
+  margin-top: var(--spacing-2xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--color-border);
+}
+
+.meditalk-footer p {
+  color: var(--color-text-muted) !important;
+  font-size: var(--font-size-sm) !important;
+  margin: var(--spacing-xs) 0 !important;
+}
+
+/* Streamlit Sidebar Styling */
+[data-testid="stSidebar"] {
+  background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-primary-dark) 100%) !important;
+  border-right: 1px solid var(--color-border) !important;
+}
+
+[data-testid="stSidebar"] > div {
+  background: transparent !important;
+}
+
+[data-testid="stSidebar"] .stMarkdown {
+  color: var(--color-text-inverse) !important;
+}
+
+[data-testid="stSidebar"] .stSelectbox label {
+  color: var(--color-text-inverse) !important;
+  font-weight: 500 !important;
+}
+
+/* Streamlit Buttons */
+.stButton > button {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%) !important;
+  color: var(--color-text-inverse) !important;
+  border: none !important;
+  border-radius: var(--radius-lg) !important;
+  font-weight: 600 !important;
+  font-size: var(--font-size-base) !important;
+  padding: var(--spacing-md) var(--spacing-xl) !important;
+  box-shadow: var(--shadow-md) !important;
+  transition: all var(--transition-base) !important;
+  text-transform: none !important;
+}
+
+.stButton > button:hover {
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-accent) 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+.stButton > button:focus {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1) !important;
+}
+
+/* Streamlit Inputs */
+.stTextInput > div > div > input,
+.stTextArea > div > div > textarea,
+.stSelectbox > div > div > div {
+  background: var(--color-surface-elevated) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--radius-md) !important;
+  color: var(--color-text-primary) !important;
+  font-family: var(--font-family-primary) !important;
+  transition: all var(--transition-fast) !important;
+}
+
+.stTextInput > div > div > input:focus,
+.stTextArea > div > div > textarea:focus {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1) !important;
+}
+
+/* Streamlit Multiselect */
+.stMultiSelect div[data-baseweb="select"] {
+  background: var(--color-surface-elevated) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--radius-md) !important;
+}
+
+/* Streamlit Expander */
+.streamlit-expander {
+  background: var(--color-surface-elevated) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--radius-lg) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+.streamlit-expander .streamlit-expanderHeader {
+  background: var(--color-surface) !important;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0 !important;
+}
+
+/* Streamlit Metrics */
+[data-testid="metric-container"] {
+  background: var(--color-surface-elevated) !important;
+  border: 1px solid var(--color-border-light) !important;
+  border-radius: var(--radius-lg) !important;
+  padding: var(--spacing-lg) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+/* Streamlit Columns */
+[data-testid="column"] {
+  padding: 0 var(--spacing-sm) !important;
+}
+
+/* Streamlit Tabs */
+.stTabs [data-baseweb="tab-list"] {
+  gap: var(--spacing-sm);
+  background: var(--color-surface-elevated) !important;
+  border-radius: var(--radius-lg) !important;
+  padding: var(--spacing-sm) !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+  background: transparent !important;
+  border-radius: var(--radius-md) !important;
+  color: var(--color-text-secondary) !important;
+  font-weight: 500 !important;
+  transition: all var(--transition-fast) !important;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+  background: var(--color-surface-hover) !important;
+  color: var(--color-text-primary) !important;
+}
+
+.stTabs [aria-selected="true"] {
+  background: var(--color-primary) !important;
+  color: var(--color-text-inverse) !important;
+}
+
+/* Charts & Visualizations */
+.vega-embed {
+  background: var(--color-surface) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--radius-lg) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface-elevated);
+  border-radius: var(--radius-sm);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: var(--radius-sm);
+  transition: background var(--transition-fast);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main .block-container {
+    padding: var(--spacing-lg) !important;
+    margin-top: var(--spacing-sm) !important;
+    border-radius: var(--radius-md) !important;
+  }
+  
+  .meditalk-hero {
+    padding: var(--spacing-lg) !important;
+  }
+  
+  .meditalk-hero h1 {
+    font-size: var(--font-size-3xl) !important;
+  }
+  
+  .metric-grid {
+    grid-template-columns: 1fr !important;
+    gap: var(--spacing-md) !important;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply animations to components */
+.meditalk-card,
+.metric-item,
+.symptom-chip,
+.precaution-item {
+  animation: fadeIn 0.5s ease-out;
+}
+
+[data-testid="stSidebar"] {
+  animation: slideIn 0.3s ease-out;
+}

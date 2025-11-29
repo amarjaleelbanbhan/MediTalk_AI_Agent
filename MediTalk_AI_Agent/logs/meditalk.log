@@ -1,0 +1,420 @@
+2025-11-12 13:52:49,654 WARNING Failed login attempt
+2025-11-12 13:57:40,413 INFO User logged in
+2025-11-12 13:58:19,104 INFO Validating symptoms: ['i_have_high_fever_and_feel_cool.']
+2025-11-12 13:58:19,106 INFO Validation result: {'valid_symptoms': [], 'invalid_symptoms': ['i_have_high_fever_and_feel_cool.'], 'all_valid': False}
+2025-11-12 13:58:35,147 INFO Validating symptoms: ['abdominal_pain', 'anxiety', 'blackheads', 'belly_pain']
+2025-11-12 13:58:35,147 INFO Validation result: {'valid_symptoms': ['abdominal_pain', 'anxiety', 'blackheads', 'belly_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-12 13:58:35,148 INFO Predicting disease for valid symptoms: ['abdominal_pain', 'anxiety', 'blackheads', 'belly_pain']
+2025-11-12 13:58:35,508 INFO Prediction: primary=Acne confidence=0.226
+2025-11-12 14:22:54,647 INFO User logged in
+2025-11-12 15:57:02,814 INFO User logged in
+2025-11-12 15:57:14,851 INFO Validating symptoms: ['anxiety', 'acute_liver_failure', 'abnormal_menstruation']
+2025-11-12 15:57:14,851 INFO Validation result: {'valid_symptoms': ['anxiety', 'acute_liver_failure', 'abnormal_menstruation'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-12 15:57:14,852 INFO Predicting disease for valid symptoms: ['anxiety', 'acute_liver_failure', 'abnormal_menstruation']
+2025-11-12 15:57:15,148 INFO Prediction: primary=Hepatitis E confidence=0.090
+2025-11-12 16:08:21,570 INFO User logged in
+2025-11-12 16:10:21,113 INFO User logged in
+2025-11-12 16:13:00,047 INFO User logged in
+2025-11-12 16:13:37,269 INFO User logged in
+2025-11-12 16:18:01,099 INFO User logged in
+2025-11-12 16:18:25,558 INFO Validating symptoms: ['abnormal_menstruation', 'acute_liver_failure', 'altered_sensorium', 'anxiety']
+2025-11-12 16:18:25,559 INFO Validation result: {'valid_symptoms': ['abnormal_menstruation', 'acute_liver_failure', 'altered_sensorium', 'anxiety'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-12 16:18:25,559 INFO Predicting disease for valid symptoms: ['abnormal_menstruation', 'acute_liver_failure', 'altered_sensorium', 'anxiety']
+2025-11-12 16:18:25,838 INFO Prediction: primary=Paralysis (brain hemorrhage) confidence=0.131
+2025-11-12 16:22:06,144 INFO User logged in
+2025-11-12 16:26:08,331 INFO User logged in
+2025-11-12 16:34:51,559 INFO Validating symptoms: ['anxiety', 'depression', 'headache', 'fatigue']
+2025-11-12 16:34:51,559 INFO Validation result: {'valid_symptoms': ['anxiety', 'depression', 'headache', 'fatigue'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-12 16:34:51,560 INFO Predicting disease for valid symptoms: ['anxiety', 'depression', 'headache', 'fatigue']
+2025-11-12 16:34:51,815 INFO Prediction: primary=Migraine confidence=0.063
+2025-11-12 16:48:32,027 INFO User logged in
+2025-11-12 16:49:02,173 INFO Voice input captured
+2025-11-12 16:49:25,688 INFO Voice input captured
+2025-11-12 16:50:13,778 INFO Voice input captured
+2025-11-12 16:53:00,274 INFO Voice input captured
+2025-11-12 16:53:22,552 INFO Voice input captured: cough dizziness
+2025-11-12 16:54:11,988 INFO Voice input captured: high fever
+2025-11-12 16:54:22,879 INFO Voice input captured: fever dizziness
+2025-11-12 16:58:33,271 INFO Validating symptoms: ['back_pain', 'anxiety', 'dizziness', 'fatigue', 'vomiting']
+2025-11-12 16:58:33,272 INFO Validation result: {'valid_symptoms': ['back_pain', 'anxiety', 'dizziness', 'fatigue', 'vomiting'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-12 16:58:33,273 INFO Predicting disease for valid symptoms: ['back_pain', 'anxiety', 'dizziness', 'fatigue', 'vomiting']
+2025-11-12 16:58:33,529 INFO Prediction: primary=Cervical spondylosis confidence=0.072
+2025-11-12 17:08:39,183 INFO User logged in
+2025-11-12 17:08:53,358 INFO Voice input failed - no speech recognized
+2025-11-12 17:09:35,583 INFO Voice input failed - no speech recognized
+2025-11-12 17:16:28,996 INFO User logged in
+2025-11-12 17:16:43,677 INFO Voice input failed - no speech recognized
+2025-11-12 17:17:13,121 INFO Voice input failed - no speech recognized
+2025-11-12 17:27:15,573 INFO User logged in
+2025-11-12 17:27:25,431 INFO Voice input failed - no speech recognized
+2025-11-12 17:27:56,350 INFO Voice input captured: fever disease
+2025-11-12 17:28:06,892 INFO Voice input captured: decreasing
+2025-11-12 17:28:35,772 INFO Voice input failed - no speech recognized
+2025-11-12 17:28:47,185 INFO Voice input captured: fever back pain head pain muscles pain
+2025-11-12 17:31:07,592 INFO Voice input captured: head pain back pain
+2025-11-12 17:31:13,165 INFO Validating symptoms: ['head_pain_back_pain']
+2025-11-12 17:31:13,167 INFO Validation result: {'valid_symptoms': [], 'invalid_symptoms': ['head_pain_back_pain'], 'all_valid': False}
+2025-11-12 17:31:24,917 INFO Voice input failed - no speech recognized
+2025-11-12 17:31:33,233 INFO Voice input failed - no speech recognized
+2025-11-12 17:41:08,950 INFO Audio response system initialized
+2025-11-12 17:41:13,431 INFO User logged in
+2025-11-12 17:41:24,775 INFO Voice input captured: fever cough
+2025-11-12 17:41:24,937 INFO Validating symptoms: ['fever_cough']
+2025-11-12 17:41:24,949 INFO Validation result: {'valid_symptoms': [], 'invalid_symptoms': ['fever_cough'], 'all_valid': False}
+2025-11-12 17:41:37,877 INFO Validating symptoms: ['acidity', 'anxiety', 'belly_pain']
+2025-11-12 17:41:37,884 INFO Validation result: {'valid_symptoms': ['acidity', 'anxiety', 'belly_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-12 17:41:37,886 INFO Predicting disease for valid symptoms: ['acidity', 'anxiety', 'belly_pain']
+2025-11-12 17:41:38,201 INFO Prediction: primary=Typhoid confidence=0.134
+2025-11-12 17:41:58,701 INFO Validating symptoms: ['acidity', 'anxiety', 'belly_pain']
+2025-11-12 17:41:58,702 INFO Validation result: {'valid_symptoms': ['acidity', 'anxiety', 'belly_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-12 17:41:58,703 INFO Predicting disease for valid symptoms: ['acidity', 'anxiety', 'belly_pain']
+2025-11-12 17:41:58,969 INFO Prediction: primary=Typhoid confidence=0.134
+2025-11-12 17:48:04,767 INFO Validating symptoms: ['acidity', 'anxiety', 'belly_pain']
+2025-11-12 17:48:04,768 INFO Validation result: {'valid_symptoms': ['acidity', 'anxiety', 'belly_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-12 17:48:04,769 INFO Predicting disease for valid symptoms: ['acidity', 'anxiety', 'belly_pain']
+2025-11-12 17:48:05,061 INFO Prediction: primary=Typhoid confidence=0.134
+2025-11-12 18:11:33,453 INFO Audio response system initialized
+2025-11-12 18:11:48,907 INFO User logged in
+2025-11-12 18:12:02,780 INFO Voice input captured: I have
+2025-11-12 18:12:19,938 INFO Voice input captured: I have back pain feel fever and
+2025-11-12 18:12:20,077 INFO Validating symptoms: ['back_pain', 'high_fever', 'abdominal_pain', 'belly_pain', 'blurred_and_distorted_vision', 'chest_pain', 'cold_hands_and_feets', 'continuous_feel_of_urine', 'drying_and_tingling_lips', 'hip_joint_pain', 'joint_pain', 'knee_pain', 'muscle_pain', 'neck_pain', 'pain_behind_the_eyes', 'pain_during_bowel_movements', 'pain_in_anal_region', 'puffy_face_and_eyes', 'stomach_pain']
+2025-11-12 18:12:20,077 INFO Validation result: {'valid_symptoms': ['back_pain', 'high_fever', 'abdominal_pain', 'belly_pain', 'blurred_and_distorted_vision', 'chest_pain', 'cold_hands_and_feets', 'continuous_feel_of_urine', 'drying_and_tingling_lips', 'hip_joint_pain', 'joint_pain', 'knee_pain', 'muscle_pain', 'neck_pain', 'pain_behind_the_eyes', 'pain_during_bowel_movements', 'pain_in_anal_region', 'puffy_face_and_eyes', 'stomach_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-12 18:12:20,077 INFO Predicting disease for valid symptoms: ['back_pain', 'high_fever', 'abdominal_pain', 'belly_pain', 'blurred_and_distorted_vision', 'chest_pain', 'cold_hands_and_feets', 'continuous_feel_of_urine', 'drying_and_tingling_lips', 'hip_joint_pain', 'joint_pain', 'knee_pain', 'muscle_pain', 'neck_pain', 'pain_behind_the_eyes', 'pain_during_bowel_movements', 'pain_in_anal_region', 'puffy_face_and_eyes', 'stomach_pain']
+2025-11-12 18:12:20,240 INFO Prediction: primary=Osteoarthristis confidence=0.152
+2025-11-12 18:17:52,149 INFO Voice input captured: I have back
+2025-11-12 18:17:52,358 INFO Validating symptoms: ['back_pain']
+2025-11-12 18:17:52,364 INFO Validation result: {'valid_symptoms': ['back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-12 18:17:52,365 INFO Predicting disease for valid symptoms: ['back_pain']
+2025-11-12 18:17:52,568 INFO Prediction: primary=Cervical spondylosis confidence=0.063
+2025-11-12 18:26:36,700 INFO Audio response system initialized
+2025-11-13 13:15:40,702 INFO Audio response system initialized
+2025-11-13 13:15:40,703 INFO Audio response system initialized
+2025-11-13 13:16:06,424 INFO User logged in
+2025-11-13 13:16:38,634 INFO Voice input failed - no speech recognized
+2025-11-13 13:16:43,350 INFO Voice input failed - no speech recognized
+2025-11-13 13:16:48,241 INFO Voice input failed - no speech recognized
+2025-11-13 13:16:58,019 INFO Voice input failed - no speech recognized
+2025-11-13 13:17:06,451 INFO Audio response system initialized
+2025-11-13 13:17:12,798 INFO User logged in
+2025-11-13 13:18:06,797 INFO Voice input failed - no speech recognized
+2025-11-13 13:18:08,771 INFO Voice input failed - no speech recognized
+2025-11-13 13:20:30,165 INFO Validating symptoms: ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability']
+2025-11-13 13:20:30,166 INFO Validation result: {'valid_symptoms': ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-13 13:20:30,166 INFO Predicting disease for valid symptoms: ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability']
+2025-11-13 13:20:30,515 INFO Prediction: primary=Urinary tract infection confidence=0.101
+2025-11-13 13:22:14,841 INFO Validating symptoms: ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability']
+2025-11-13 13:22:14,842 INFO Validation result: {'valid_symptoms': ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-13 13:22:14,842 INFO Predicting disease for valid symptoms: ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability']
+2025-11-13 13:22:15,669 INFO Prediction: primary=Urinary tract infection confidence=0.101
+2025-11-13 13:23:20,361 INFO Validating symptoms: ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability']
+2025-11-13 13:23:20,361 INFO Validation result: {'valid_symptoms': ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-13 13:23:20,362 INFO Predicting disease for valid symptoms: ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability']
+2025-11-13 13:23:20,925 INFO Prediction: primary=Urinary tract infection confidence=0.101
+2025-11-13 13:25:25,693 INFO Validating symptoms: ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability']
+2025-11-13 13:25:25,694 INFO Validation result: {'valid_symptoms': ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-13 13:25:25,695 INFO Predicting disease for valid symptoms: ['anxiety', 'cold_hands_and_feets', 'chest_pain', 'continuous_feel_of_urine', 'fatigue', 'headache', 'irritability']
+2025-11-13 13:25:26,061 INFO Prediction: primary=Urinary tract infection confidence=0.101
+2025-11-13 13:26:49,318 INFO Voice input failed - no speech recognized
+2025-11-16 23:54:34,225 INFO Audio response system initialized
+2025-11-16 23:54:41,688 INFO User logged in
+2025-11-16 23:55:44,956 INFO Voice input failed - no speech recognized
+2025-11-16 23:56:02,124 INFO Voice input failed - no speech recognized
+2025-11-16 23:56:44,169 INFO Voice input captured: fever
+2025-11-16 23:59:35,413 INFO Voice input captured: I have back pain and fever
+2025-11-16 23:59:35,637 INFO Validating symptoms: ['back_pain', 'high_fever']
+2025-11-16 23:59:35,639 INFO Validation result: {'valid_symptoms': ['back_pain', 'high_fever'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-16 23:59:35,639 INFO Predicting disease for valid symptoms: ['back_pain', 'high_fever']
+2025-11-16 23:59:35,908 INFO Prediction: primary=Cervical spondylosis confidence=0.063
+2025-11-19 10:25:19,937 INFO Audio response system initialized
+2025-11-19 10:25:31,505 INFO User logged in
+2025-11-23 01:28:25,913 INFO Audio response system initialized
+2025-11-23 01:28:25,918 INFO Audio response system initialized
+2025-11-23 01:28:36,788 INFO Audio response system initialized
+2025-11-23 15:25:06,974 INFO Audio response system initialized
+2025-11-23 15:25:22,479 INFO Audio response system initialized
+2025-11-23 15:25:29,901 WARNING Failed login attempt
+2025-11-23 15:25:31,578 WARNING Failed login attempt
+2025-11-23 16:04:30,583 INFO Audio response system initialized
+2025-11-23 16:05:03,655 INFO Audio response system initialized
+2025-11-23 16:06:13,901 INFO Audio response system initialized
+2025-11-23 16:08:17,181 INFO Audio response system initialized
+2025-11-23 16:11:30,213 INFO Audio response system initialized
+2025-11-23 16:11:30,223 WARNING Failed login attempt
+2025-11-23 16:11:33,195 WARNING Failed login attempt
+2025-11-23 16:19:15,798 INFO Audio response system initialized
+2025-11-23 16:25:10,731 INFO Audio response system initialized
+2025-11-23 16:30:40,115 INFO Audio response system initialized
+2025-11-23 16:30:54,109 INFO User logged in
+2025-11-23 16:31:13,250 WARNING Voice interface not available
+2025-11-23 16:32:44,719 WARNING Voice interface not available
+2025-11-23 16:32:45,172 WARNING Voice interface not available
+2025-11-23 16:32:45,456 WARNING Voice interface not available
+2025-11-23 16:32:45,733 WARNING Voice interface not available
+2025-11-23 16:32:47,030 WARNING Voice interface not available
+2025-11-23 16:32:47,687 WARNING Voice interface not available
+2025-11-23 16:32:49,079 WARNING Voice interface not available
+2025-11-23 16:33:43,835 INFO Validating symptoms: ['back_pain']
+2025-11-23 16:33:43,835 INFO Validation result: {'valid_symptoms': ['back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-23 16:33:43,835 INFO Predicting disease for valid symptoms: ['back_pain']
+2025-11-23 16:33:44,031 INFO Prediction: primary=Cervical spondylosis confidence=0.063
+2025-11-23 16:33:58,515 INFO Validating symptoms: ['back_pain', 'high_fever']
+2025-11-23 16:33:58,515 INFO Validation result: {'valid_symptoms': ['back_pain', 'high_fever'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-23 16:33:58,515 INFO Predicting disease for valid symptoms: ['back_pain', 'high_fever']
+2025-11-23 16:33:58,744 INFO Prediction: primary=Cervical spondylosis confidence=0.063
+2025-11-23 16:34:14,749 INFO Validating symptoms: ['back_pain', 'high_fever']
+2025-11-23 16:34:14,749 INFO Validation result: {'valid_symptoms': ['back_pain', 'high_fever'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-23 16:34:14,749 INFO Predicting disease for valid symptoms: ['back_pain', 'high_fever']
+2025-11-23 16:34:14,933 INFO Prediction: primary=Cervical spondylosis confidence=0.063
+2025-11-23 16:34:16,533 WARNING Voice interface not available
+2025-11-23 16:34:31,649 INFO Validating symptoms: ['back_pain', 'high_fever']
+2025-11-23 16:34:31,657 INFO Validation result: {'valid_symptoms': ['back_pain', 'high_fever'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-23 16:34:31,657 INFO Predicting disease for valid symptoms: ['back_pain', 'high_fever']
+2025-11-23 16:34:31,854 INFO Prediction: primary=Cervical spondylosis confidence=0.063
+2025-11-23 16:35:48,964 WARNING Voice interface not available
+2025-11-23 16:36:02,279 INFO Audio response system initialized
+2025-11-23 16:36:11,643 INFO User logged in
+2025-11-23 16:36:22,644 WARNING Voice interface not available
+2025-11-23 16:37:13,168 WARNING Voice interface not available
+2025-11-23 16:37:14,525 WARNING Voice interface not available
+2025-11-23 16:37:17,441 INFO Audio response system initialized
+2025-11-23 16:37:28,630 INFO User logged in
+2025-11-23 16:37:37,491 WARNING Voice interface not available
+2025-11-23 16:45:14,440 INFO Audio response system initialized
+2025-11-23 16:46:11,855 INFO User logged in
+2025-11-23 16:46:23,853 INFO Voice input failed - no speech recognized
+2025-11-23 16:46:39,313 INFO Voice input failed - no speech recognized
+2025-11-23 16:46:49,310 INFO Voice input failed - no speech recognized
+2025-11-23 17:02:04,627 INFO Voice input failed - no speech recognized
+2025-11-23 17:02:14,904 INFO Voice input failed - no speech recognized
+2025-11-23 17:05:17,725 INFO Audio response system initialized
+2025-11-23 17:05:29,045 INFO User logged in
+2025-11-23 17:05:43,070 INFO Voice input failed - no speech recognized
+2025-11-23 17:13:20,878 INFO Audio response system initialized
+2025-11-23 17:13:34,565 INFO User logged in
+2025-11-23 17:13:49,965 INFO Voice input failed - no speech recognized
+2025-11-23 17:14:02,022 INFO Voice input failed - no speech recognized
+2025-11-23 17:15:29,738 INFO Audio response system initialized
+2025-11-23 17:15:34,617 INFO Audio response system initialized
+2025-11-23 17:15:43,588 INFO User logged in
+2025-11-23 17:16:00,282 INFO Voice input failed - no speech recognized
+2025-11-23 17:16:30,438 INFO Voice input failed - no speech recognized
+2025-11-23 17:35:54,966 INFO Audio response system initialized
+2025-11-23 17:35:54,972 INFO Audio response system initialized
+2025-11-23 17:36:18,672 INFO User logged in
+2025-11-23 17:36:34,539 INFO Voice input failed - no speech recognized
+2025-11-23 17:37:39,454 INFO Audio response system initialized
+2025-11-23 17:37:39,456 INFO Audio response system initialized
+2025-11-23 17:38:01,980 INFO User logged in
+2025-11-23 17:38:17,121 INFO Voice input failed - no speech recognized
+2025-11-23 17:42:08,646 INFO Audio response system initialized
+2025-11-23 17:42:44,158 INFO User logged in
+2025-11-23 17:43:01,188 INFO Voice input failed - no speech recognized
+2025-11-23 18:18:08,364 INFO Audio response system initialized
+2025-11-23 18:18:08,364 INFO Audio response system initialized
+2025-11-23 18:18:31,474 INFO Audio response system initialized
+2025-11-23 18:24:23,627 INFO Audio response system initialized
+2025-11-23 18:24:59,468 INFO Audio response system initialized
+2025-11-23 18:24:59,499 INFO Audio response system initialized
+2025-11-23 18:29:01,736 INFO Audio response system initialized
+2025-11-23 18:29:01,738 INFO Audio response system initialized
+2025-11-23 18:30:26,235 INFO Audio response system initialized
+2025-11-23 18:30:53,449 INFO Audio response system initialized
+2025-11-23 18:47:23,547 INFO Audio response system initialized
+2025-11-23 18:54:00,926 INFO Audio response system initialized
+2025-11-23 18:54:16,200 INFO User authenticated successfully
+2025-11-23 18:57:42,546 INFO Audio response system initialized
+2025-11-23 18:58:04,218 INFO User authenticated successfully
+2025-11-23 19:00:25,348 INFO Audio response system initialized
+2025-11-23 19:01:01,072 INFO User logged in
+2025-11-23 19:04:09,654 INFO Audio response system initialized
+2025-11-23 19:18:09,380 INFO Audio response system initialized
+2025-11-23 19:18:53,452 [INFO] meditalk: Disease predictor loaded successfully
+2025-11-23 19:18:53,452 [INFO] meditalk: Symptom extractor initialized with 131 symptoms
+2025-11-23 19:18:54,159 [INFO] meditalk: Voice interface initialized
+2025-11-23 19:18:54,159 [INFO] meditalk: Audio response initialized
+2025-11-23 19:19:07,748 [INFO] meditalk: Disease predictor loaded successfully
+2025-11-23 19:19:07,749 [INFO] meditalk: Symptom extractor initialized with 131 symptoms
+2025-11-23 19:19:07,753 [INFO] meditalk: Voice interface initialized
+2025-11-23 19:19:07,756 [INFO] meditalk: Audio response initialized
+2025-11-23 19:19:18,420 [WARNING] meditalk: Failed authentication attempt: admin
+2025-11-23 19:19:28,005 [WARNING] meditalk: Failed authentication attempt: admin
+2025-11-23 19:19:30,216 [WARNING] meditalk: Failed authentication attempt: admin
+2025-11-23 19:24:12,300 INFO Audio response system initialized
+2025-11-23 19:27:40,105 INFO Audio response system initialized
+2025-11-23 19:30:38,609 INFO Audio response system initialized
+2025-11-23 19:30:38,609 INFO Audio response system initialized
+2025-11-23 19:30:59,670 INFO User logged in
+2025-11-23 19:31:22,583 INFO Validating symptoms: ['back_pain', 'high_fever']
+2025-11-23 19:31:22,583 INFO Validation result: {'valid_symptoms': ['back_pain', 'high_fever'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-23 19:31:22,587 INFO Predicting disease for valid symptoms: ['back_pain', 'high_fever']
+2025-11-23 19:31:22,804 INFO Prediction: primary=Cervical spondylosis confidence=0.104
+2025-11-25 11:30:14,830 INFO Audio response system initialized
+2025-11-25 11:30:30,211 INFO User logged in
+2025-11-25 11:30:48,348 INFO Voice input failed - no speech recognized
+2025-11-25 11:36:46,565 INFO Voice input failed - no speech recognized
+2025-11-25 11:37:13,782 INFO Voice input failed - no speech recognized
+2025-11-25 11:47:19,627 INFO Audio response system initialized
+2025-11-25 11:50:44,648 INFO Audio response system initialized
+2025-11-25 11:56:04,095 INFO Audio response system initialized
+2025-11-25 12:04:07,824 INFO Audio response system initialized
+2025-11-25 12:08:42,946 INFO Validating symptoms: ['altered_sensorium', 'anxiety', 'acidity']
+2025-11-25 12:08:42,946 INFO Validation result: {'valid_symptoms': ['altered_sensorium', 'anxiety', 'acidity'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-25 12:08:42,946 INFO Predicting disease for valid symptoms: ['altered_sensorium', 'anxiety', 'acidity']
+2025-11-25 12:08:43,098 INFO Prediction: primary=Paralysis (brain hemorrhage) confidence=0.351
+2025-11-25 12:08:45,847 INFO Validating symptoms: ['altered_sensorium', 'anxiety', 'acidity']
+2025-11-25 12:08:45,849 INFO Validation result: {'valid_symptoms': ['altered_sensorium', 'anxiety', 'acidity'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-25 12:08:45,849 INFO Predicting disease for valid symptoms: ['altered_sensorium', 'anxiety', 'acidity']
+2025-11-25 12:08:45,998 INFO Prediction: primary=Paralysis (brain hemorrhage) confidence=0.351
+2025-11-25 23:30:46,185 INFO Audio response system initialized
+2025-11-25 23:44:22,872 INFO Audio response system initialized
+2025-11-25 23:58:26,747 INFO Audio response system initialized
+2025-11-25 23:59:34,533 INFO Validating symptoms: ['back_pain', 'cough', 'high_fever']
+2025-11-25 23:59:34,533 INFO Validation result: {'valid_symptoms': ['back_pain', 'cough', 'high_fever'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-25 23:59:34,539 INFO Predicting disease for valid symptoms: ['back_pain', 'cough', 'high_fever']
+2025-11-25 23:59:34,686 INFO Prediction: primary=Cervical spondylosis confidence=0.100
+2025-11-26 00:02:15,406 INFO Audio response system initialized
+2025-11-26 00:02:15,412 INFO Audio response system initialized
+2025-11-26 00:02:54,124 INFO Validating symptoms: ['acute_liver_failure', 'anxiety', 'back_pain', 'belly_pain']
+2025-11-26 00:02:54,124 INFO Validation result: {'valid_symptoms': ['acute_liver_failure', 'anxiety', 'back_pain', 'belly_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 00:02:54,127 INFO Predicting disease for valid symptoms: ['acute_liver_failure', 'anxiety', 'back_pain', 'belly_pain']
+2025-11-26 00:02:54,276 INFO Prediction: primary=Typhoid confidence=0.239
+2025-11-26 00:03:20,303 INFO Validating symptoms: ['acute_liver_failure', 'anxiety', 'back_pain', 'belly_pain']
+2025-11-26 00:03:20,303 INFO Validation result: {'valid_symptoms': ['acute_liver_failure', 'anxiety', 'back_pain', 'belly_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 00:03:20,303 INFO Predicting disease for valid symptoms: ['acute_liver_failure', 'anxiety', 'back_pain', 'belly_pain']
+2025-11-26 00:03:20,526 INFO Prediction: primary=Typhoid confidence=0.239
+2025-11-26 09:45:20,877 INFO Audio response system initialized
+2025-11-26 09:46:17,111 INFO Validating symptoms: ['back_pain']
+2025-11-26 09:46:17,111 INFO Validation result: {'valid_symptoms': ['back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 09:46:17,112 INFO Predicting disease for valid symptoms: ['back_pain']
+2025-11-26 09:46:17,316 INFO Prediction: primary=Cervical spondylosis confidence=0.115
+2025-11-26 09:46:26,135 INFO Validating symptoms: ['back_pain']
+2025-11-26 09:46:26,135 INFO Validation result: {'valid_symptoms': ['back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 09:46:26,136 INFO Predicting disease for valid symptoms: ['back_pain']
+2025-11-26 09:46:26,302 INFO Prediction: primary=Cervical spondylosis confidence=0.115
+2025-11-26 09:47:05,733 INFO Audio response system initialized
+2025-11-26 10:06:54,503 INFO Validating symptoms: ['high_fever']
+2025-11-26 10:06:54,503 INFO Validation result: {'valid_symptoms': ['high_fever'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:06:54,508 INFO Predicting disease for valid symptoms: ['high_fever']
+2025-11-26 10:06:54,660 INFO Prediction: primary=Heart attack confidence=0.054
+2025-11-26 10:07:00,469 INFO Validating symptoms: ['high_fever']
+2025-11-26 10:07:00,470 INFO Validation result: {'valid_symptoms': ['high_fever'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:07:00,470 INFO Predicting disease for valid symptoms: ['high_fever']
+2025-11-26 10:07:00,617 INFO Prediction: primary=Heart attack confidence=0.054
+2025-11-26 10:08:18,116 INFO Validating symptoms: ['anxiety', 'back_pain', 'blood_in_sputum', 'cough', 'dark_urine', 'distention_of_abdomen']
+2025-11-26 10:08:18,117 INFO Validation result: {'valid_symptoms': ['anxiety', 'back_pain', 'blood_in_sputum', 'cough', 'dark_urine', 'distention_of_abdomen'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:08:18,117 INFO Predicting disease for valid symptoms: ['anxiety', 'back_pain', 'blood_in_sputum', 'cough', 'dark_urine', 'distention_of_abdomen']
+2025-11-26 10:08:18,246 INFO Prediction: primary=Tuberculosis confidence=0.217
+2025-11-26 10:13:37,929 INFO Validating symptoms: ['high_fever']
+2025-11-26 10:13:37,929 INFO Validation result: {'valid_symptoms': ['high_fever'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:13:37,929 INFO Predicting disease for valid symptoms: ['high_fever']
+2025-11-26 10:13:38,060 INFO Prediction: primary=Heart attack confidence=0.054
+2025-11-26 10:14:00,673 INFO Validating symptoms: ['high_fever', 'headache']
+2025-11-26 10:14:00,673 INFO Validation result: {'valid_symptoms': ['high_fever', 'headache'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:14:00,673 INFO Predicting disease for valid symptoms: ['high_fever', 'headache']
+2025-11-26 10:14:00,955 INFO Prediction: primary=Heart attack confidence=0.054
+2025-11-26 10:15:01,249 INFO Validating symptoms: ['high_fever', 'headache']
+2025-11-26 10:15:01,249 INFO Validation result: {'valid_symptoms': ['high_fever', 'headache'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:15:01,249 INFO Predicting disease for valid symptoms: ['high_fever', 'headache']
+2025-11-26 10:15:01,386 INFO Prediction: primary=Heart attack confidence=0.054
+2025-11-26 10:15:27,760 INFO Audio response system initialized
+2025-11-26 10:45:34,253 INFO Audio response system initialized
+2025-11-26 10:45:34,253 INFO Audio response system initialized
+2025-11-26 10:45:34,259 INFO Audio response system initialized
+2025-11-26 10:46:01,808 INFO Audio response system initialized
+2025-11-26 10:47:30,159 INFO Validating symptoms: ['back_pain']
+2025-11-26 10:47:30,159 INFO Validation result: {'valid_symptoms': ['back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:47:30,163 INFO Predicting disease for valid symptoms: ['back_pain']
+2025-11-26 10:47:30,302 INFO Prediction: primary=Cervical spondylosis confidence=0.115
+2025-11-26 10:47:30,537 INFO Audio response system initialized
+2025-11-26 10:47:34,929 INFO Validating symptoms: ['back_pain']
+2025-11-26 10:47:34,929 INFO Validation result: {'valid_symptoms': ['back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:47:34,929 INFO Predicting disease for valid symptoms: ['back_pain']
+2025-11-26 10:47:35,095 INFO Prediction: primary=Cervical spondylosis confidence=0.115
+2025-11-26 10:52:36,321 INFO Validating symptoms: ['back_pain']
+2025-11-26 10:52:36,324 INFO Validation result: {'valid_symptoms': ['back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:52:36,324 INFO Predicting disease for valid symptoms: ['back_pain']
+2025-11-26 10:52:36,470 INFO Prediction: primary=Cervical spondylosis confidence=0.115
+2025-11-26 10:52:45,958 INFO Audio response system initialized
+2025-11-26 10:54:16,029 INFO Audio response system initialized
+2025-11-26 10:54:27,454 INFO Audio response system initialized
+2025-11-26 10:56:10,613 INFO Validating symptoms: ['back_pain']
+2025-11-26 10:56:10,613 INFO Validation result: {'valid_symptoms': ['back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:56:10,613 INFO Predicting disease for valid symptoms: ['back_pain']
+2025-11-26 10:56:10,720 INFO Prediction: primary=Cervical spondylosis confidence=0.115
+2025-11-26 10:57:36,653 INFO Validating symptoms: ['back_pain', 'cough']
+2025-11-26 10:57:36,653 INFO Validation result: {'valid_symptoms': ['back_pain', 'cough'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 10:57:36,653 INFO Predicting disease for valid symptoms: ['back_pain', 'cough']
+2025-11-26 10:57:36,762 INFO Prediction: primary=Cervical spondylosis confidence=0.111
+2025-11-26 10:59:32,012 INFO Audio response system initialized
+2025-11-26 11:01:01,363 INFO Validating symptoms: ['blister', 'fatigue']
+2025-11-26 11:01:01,363 INFO Validation result: {'valid_symptoms': ['blister', 'fatigue'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:01:01,363 INFO Predicting disease for valid symptoms: ['blister', 'fatigue']
+2025-11-26 11:01:01,480 INFO Prediction: primary=Impetigo confidence=0.274
+2025-11-26 11:01:42,772 INFO Audio response system initialized
+2025-11-26 11:02:03,882 INFO Validating symptoms: ['back_pain', 'blister', 'fatigue']
+2025-11-26 11:02:03,882 INFO Validation result: {'valid_symptoms': ['back_pain', 'blister', 'fatigue'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:02:03,884 INFO Predicting disease for valid symptoms: ['back_pain', 'blister', 'fatigue']
+2025-11-26 11:02:04,035 INFO Prediction: primary=Impetigo confidence=0.242
+2025-11-26 11:02:20,285 INFO Audio response system initialized
+2025-11-26 11:03:24,895 INFO Audio response system initialized
+2025-11-26 11:03:28,959 INFO Audio response system initialized
+2025-11-26 11:03:40,966 INFO Validating symptoms: ['back_pain']
+2025-11-26 11:03:40,966 INFO Validation result: {'valid_symptoms': ['back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:03:40,968 INFO Predicting disease for valid symptoms: ['back_pain']
+2025-11-26 11:03:41,093 INFO Prediction: primary=Cervical spondylosis confidence=0.115
+2025-11-26 11:03:43,334 INFO Validating symptoms: ['back_pain']
+2025-11-26 11:03:43,334 INFO Validation result: {'valid_symptoms': ['back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:03:43,338 INFO Predicting disease for valid symptoms: ['back_pain']
+2025-11-26 11:03:43,501 INFO Prediction: primary=Cervical spondylosis confidence=0.115
+2025-11-26 11:03:47,914 INFO Audio response system initialized
+2025-11-26 11:04:38,610 INFO Validating symptoms: ['fast_heart_rate', 'anxiety', 'abdominal_pain']
+2025-11-26 11:04:38,610 INFO Validation result: {'valid_symptoms': ['fast_heart_rate', 'anxiety', 'abdominal_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:04:38,614 INFO Predicting disease for valid symptoms: ['fast_heart_rate', 'anxiety', 'abdominal_pain']
+2025-11-26 11:04:38,736 INFO Prediction: primary=Pneumonia confidence=0.148
+2025-11-26 11:05:17,365 INFO Validating symptoms: ['bladder_discomfort', 'blackheads', 'back_pain']
+2025-11-26 11:05:17,365 INFO Validation result: {'valid_symptoms': ['bladder_discomfort', 'blackheads', 'back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:05:17,365 INFO Predicting disease for valid symptoms: ['bladder_discomfort', 'blackheads', 'back_pain']
+2025-11-26 11:05:17,480 INFO Prediction: primary=Acne confidence=0.242
+2025-11-26 11:05:56,845 INFO Validating symptoms: ['bladder_discomfort', 'back_pain']
+2025-11-26 11:05:56,845 INFO Validation result: {'valid_symptoms': ['bladder_discomfort', 'back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:05:56,845 INFO Predicting disease for valid symptoms: ['bladder_discomfort', 'back_pain']
+2025-11-26 11:05:56,968 INFO Prediction: primary=Urinary tract infection confidence=0.191
+2025-11-26 11:06:33,522 INFO Validating symptoms: ['bladder_discomfort', 'back_pain']
+2025-11-26 11:06:33,522 INFO Validation result: {'valid_symptoms': ['bladder_discomfort', 'back_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:06:33,522 INFO Predicting disease for valid symptoms: ['bladder_discomfort', 'back_pain']
+2025-11-26 11:06:33,664 INFO Prediction: primary=Urinary tract infection confidence=0.191
+2025-11-26 11:07:42,212 INFO Validating symptoms: ['acute_liver_failure', 'acidity', 'altered_sensorium']
+2025-11-26 11:07:42,216 INFO Validation result: {'valid_symptoms': ['acute_liver_failure', 'acidity', 'altered_sensorium'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:07:42,216 INFO Predicting disease for valid symptoms: ['acute_liver_failure', 'acidity', 'altered_sensorium']
+2025-11-26 11:07:42,341 INFO Prediction: primary=Paralysis (brain hemorrhage) confidence=0.363
+2025-11-26 11:08:28,951 INFO Validating symptoms: ['loss_of_appetite', 'belly_pain', 'chest_pain']
+2025-11-26 11:08:28,952 INFO Validation result: {'valid_symptoms': ['loss_of_appetite', 'belly_pain', 'chest_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:08:28,953 INFO Predicting disease for valid symptoms: ['loss_of_appetite', 'belly_pain', 'chest_pain']
+2025-11-26 11:08:29,077 INFO Prediction: primary=Typhoid confidence=0.220
+2025-11-26 11:09:00,411 INFO Validating symptoms: ['chest_pain']
+2025-11-26 11:09:00,411 INFO Validation result: {'valid_symptoms': ['chest_pain'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:09:00,411 INFO Predicting disease for valid symptoms: ['chest_pain']
+2025-11-26 11:09:00,543 INFO Prediction: primary=Heart attack confidence=0.139
+2025-11-26 11:10:03,848 INFO Validating symptoms: ['belly_pain', 'chills', 'constipation']
+2025-11-26 11:10:03,848 INFO Validation result: {'valid_symptoms': ['belly_pain', 'chills', 'constipation'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:10:03,848 INFO Predicting disease for valid symptoms: ['belly_pain', 'chills', 'constipation']
+2025-11-26 11:10:03,953 INFO Prediction: primary=Typhoid confidence=0.314
+2025-11-26 11:11:31,454 INFO Audio response system initialized
+2025-11-26 11:19:37,481 INFO Audio response system initialized
+2025-11-26 11:30:13,711 INFO Audio response system initialized
+2025-11-26 11:30:47,312 INFO Audio response system initialized
+2025-11-26 11:56:22,073 INFO Audio response system initialized
+2025-11-26 11:56:23,400 INFO Validating symptoms: ['anxiety', 'joint_pain', 'brittle_nails']
+2025-11-26 11:56:23,402 INFO Validation result: {'valid_symptoms': ['anxiety', 'joint_pain', 'brittle_nails'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:56:23,404 INFO Predicting disease for valid symptoms: ['anxiety', 'joint_pain', 'brittle_nails']
+2025-11-26 11:56:23,734 INFO Prediction: primary=Hypothyroidism confidence=0.223
+2025-11-26 11:56:41,415 INFO Audio response system initialized
+2025-11-26 11:57:25,859 INFO Audio response system initialized
+2025-11-26 11:57:39,406 INFO Validating symptoms: ['anxiety', 'joint_pain', 'brittle_nails']
+2025-11-26 11:57:39,411 INFO Validation result: {'valid_symptoms': ['anxiety', 'joint_pain', 'brittle_nails'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:57:39,411 INFO Predicting disease for valid symptoms: ['anxiety', 'joint_pain', 'brittle_nails']
+2025-11-26 11:57:39,563 INFO Prediction: primary=Hypothyroidism confidence=0.223
+2025-11-26 11:57:52,293 INFO Validating symptoms: ['headache']
+2025-11-26 11:57:52,293 INFO Validation result: {'valid_symptoms': ['headache'], 'invalid_symptoms': [], 'all_valid': True}
+2025-11-26 11:57:52,293 INFO Predicting disease for valid symptoms: ['headache']
+2025-11-26 11:57:52,450 INFO Prediction: primary=Heart attack confidence=0.056
